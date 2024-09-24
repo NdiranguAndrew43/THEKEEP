@@ -8,7 +8,9 @@ from .models import InventoryItem, Category
 from THEKEEP.settings import LOW_QUANTITY
 from django.contrib import messages
 
-class Index(TemplateView):
+# The TemplateView is a Views module to create generic pages in django.
+# Making for faster page/views creation.
+class Index(TemplateView):  
 	template_name = 'inventory/index.html'
 
 class Dashboard(LoginRequiredMixin, View):

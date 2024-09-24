@@ -19,7 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('inventory.urls')),
+    path('', include('inventory.urls')),        #This points to the inventory app URLs file with Paths to page views.
     path('signup/', include('inventory.urls')),
     path('logout/', include('inventory.urls')),
     path('dashboard/', include('inventory.urls')),
