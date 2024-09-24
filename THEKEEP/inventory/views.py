@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, View, CreateView, UpdateView, DeleteView
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import userSignUp, InventoryItemForm
 from .models import InventoryItem, Category
@@ -81,3 +81,10 @@ class DeleteItem(LoginRequiredMixin, DeleteView):
 	template_name = 'inventory/delete_item.html'
 	success_url = reverse_lazy('dashboard')
 	context_object_name = 'item'
+
+# def log_off(request):
+# 	if request.method == "POST":  
+# 			form = TableForm(request.POST)  
+# 			if form.is_valid():  
+# 				logout(request)
+# 				return redirect('logout')
