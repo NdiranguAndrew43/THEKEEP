@@ -2,7 +2,11 @@
 
         “A home shopping planner. Keeping you stocked and ready.”
 
+<<<<<<< HEAD
         ![DEMO PAGE](image.png)
+=======
+        ![defaultsite png](https://github.com/user-attachments/assets/67742bf1-072f-465c-a66e-c1b7435ccd34)
+>>>>>>> 3ec403f467199ec598f390368154329c2f34887c
 
         CHALLENGE STATEMENT
         ===================
