@@ -2,7 +2,7 @@
 
         “A home shopping planner. Keeping you stocked and ready.”
 
-        THEKEEPINDEX.jpg
+        ![alt text](https://github.com/NdiranguAndrew43/THEKEEP/blob/main/THEKEEPINDEX.jpg?raw=true)
 
         CHALLENGE STATEMENT
         ===================
