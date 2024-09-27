@@ -1,8 +1,9 @@
         THE KEEP.
 
         “A home shopping planner. Keeping you stocked and ready.”
-
+===================
         ![DEMO PAGE](image.png)
+===================
 
         CHALLENGE STATEMENT
         ===================
